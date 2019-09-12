@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "Toast+UIView.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor redColor];
+    [self.view makeToast:@"弹窗"];
+    [self.view showLoading];
 }
 
 

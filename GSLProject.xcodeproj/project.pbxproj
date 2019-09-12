@@ -13,6 +13,7 @@
 		3067F9282328EAAB005BBBA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3067F9272328EAAB005BBBA3 /* Assets.xcassets */; };
 		3067F92B2328EAAB005BBBA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3067F9292328EAAB005BBBA3 /* LaunchScreen.storyboard */; };
 		3067F92E2328EAAB005BBBA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3067F92D2328EAAB005BBBA3 /* main.m */; };
+		3067F937232A1070005BBBA3 /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3067F935232A1070005BBBA3 /* Toast+UIView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		3067F92A2328EAAB005BBBA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3067F92C2328EAAB005BBBA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3067F92D2328EAAB005BBBA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3067F935232A1070005BBBA3 /* Toast+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Toast+UIView.m"; sourceTree = "<group>"; };
+		3067F936232A1070005BBBA3 /* Toast+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Toast+UIView.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				3067F91F2328EAA9005BBBA3 /* AppDelegate.m */,
 				3067F9212328EAA9005BBBA3 /* ViewController.h */,
 				3067F9222328EAA9005BBBA3 /* ViewController.m */,
+				3067F936232A1070005BBBA3 /* Toast+UIView.h */,
+				3067F935232A1070005BBBA3 /* Toast+UIView.m */,
 				3067F9242328EAA9005BBBA3 /* Main.storyboard */,
 				3067F9272328EAAB005BBBA3 /* Assets.xcassets */,
 				3067F9292328EAAB005BBBA3 /* LaunchScreen.storyboard */,
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3067F937232A1070005BBBA3 /* Toast+UIView.m in Sources */,
 				3067F9232328EAA9005BBBA3 /* ViewController.m in Sources */,
 				3067F92E2328EAAB005BBBA3 /* main.m in Sources */,
 				3067F9202328EAA9005BBBA3 /* AppDelegate.m in Sources */,
